@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boutique de Tee-shirts</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        .product {
+            display: inline-block;
+            width: 30%;
+            margin: 10px 1%;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .product img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .product h3 {
+            font-size: 1.2em;
+            color: #333;
+        }
+
+        .product p {
+            font-size: 1em;
+            color: #777;
+        }
+
+        .product button {
+            padding: 10px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .product button:hover {
+            background-color: #218838;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Boutique en ligne de Tee-shirts</h1>
+        <p>Découvrez nos tee-shirts uniques !</p>
+    </header>
+
+    <!-- Main content -->
+    <div class="container">
+        <div class="product">
+            <img src="https://via.placeholder.com/300x300.png?text=Tee-shirt+1" alt="Tee-shirt 1">
+            <h3>Tee-shirt Moderne</h3>
+            <p>€19.99</p>
+            <!-- PayPal button -->
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <input type="hidden" name="hosted_button_id" value="XXXXXXX">
+                <button type="submit">Acheter</button>
+            </form>
+        </div>
+
+        <div class="product">
+            <img src="https://via.placeholder.com/300x300.png?text=Tee-shirt+2" alt="Tee-shirt 2">
+            <h3>Tee-shirt Classique</h3>
+            <p>€15.99</p>
+            <!-- PayPal button -->
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <input type="hidden" name="hosted_button_id" value="XXXXXXX">
+                <button type="submit">Acheter</button>
+            </form>
+        </div>
+
+        <div class="product">
+            <img src="https://via.placeholder.com/300x300.png?text=Tee-shirt+3" alt="Tee-shirt 3">
+            <h3>Tee-shirt Graphique</h3>
+            <p>€22.99</p>
+            <!-- PayPal button -->
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <input type="hidden" name="hosted_button_id" value="XXXXXXX">
+                <button type="submit">Acheter</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Boutique de Tee-shirts. Tous droits réservés.</p>
+    </footer>
+    <a href="../PAGE/about2.html">Page précédente</a>
+</body>
+</html>
